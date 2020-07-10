@@ -11,10 +11,10 @@ def binary_search(arr, target, start, end):
         return mid_index
     elif target < arr[mid_index]:
         end = mid_index - 1
-        binary_search(arr, target, start, end)
+        return binary_search(arr, target, start, end)
     elif target > arr[mid_index]:
         start = mid_index + 1
-        binary_search(arr, target, start, end)
+        return binary_search(arr, target, start, end)
 
 
 # STRETCH: implement an order-agnostic binary search
