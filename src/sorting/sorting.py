@@ -41,3 +41,6 @@ def merge_sort(arr):
 # def merge_sort_in_place(arr, l, r):
     # Your code here
 
+# arr1 = [1, 5, 8, 4, 2, 9, 6, 0, 3, 7]
+# print(arr1)
+# print(merge_sort(arr1))
