@@ -20,7 +20,7 @@ def merge(arrA, arrB):
 # TO-DO: implement the Merge Sort function below recursively
 def merge_sort(arr):
     # Your code here
-    if len(arr) == 1:
+    if len(arr) <= 1:
         return arr
 
     midpoint = len(arr) // 2
